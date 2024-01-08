@@ -6,5 +6,9 @@
 </head>
 <%--    <%= new Date().toString()%>--%>
 <body>
-    <%=request.getAttribute("time")%>
+    now : <%=request.getAttribute("time")%>
+    <br/>
+    name : <%=request.getAttribute("name")%>
+    <br/>
+    nick name : <%=request.getAttribute("nick")%>
 </body>
